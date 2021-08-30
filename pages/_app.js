@@ -4,7 +4,7 @@ import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Provider session={PageProps.session}>
+    <Provider session={pageProps.session}>
       <Layout>
         <Component {...pageProps} />
       </Layout>
